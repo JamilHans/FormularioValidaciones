@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/Titulo_Formulario"/>
+    <TextView
+        android:text="@string/intro_nombre"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:digits="abcdefghijklmnopqrstñuvwxyzABCDEFGHIJKLMNOPQRSTÑUVWXYZ "
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intro_apellido"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/etApellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:digits="abcdefghijklmnopqrstñuvwxyzABCDEFGHIJKLMNOPQRSTÑUVWXYZ "
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intro_edad"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/etEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:digits="0123456789 "
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intro_correo"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/etCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intro_DNI"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/etDNI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:digits="1234567890"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intro_celular"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/etCelular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:digits="1234567890"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/btVerificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Boton_Ingresar"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/btLimpiar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Boton_Limpiar"
+        android:layout_margin="10dp"/>
+
+
+
+</LinearLayout>
+</ScrollView>

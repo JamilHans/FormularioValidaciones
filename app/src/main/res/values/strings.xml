@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Formulario_Validaciones</string>
+    <string name="intro_edad">Introduce tu edad</string>
+    <string name="intro_DNI">Introduce tu DNI</string>
+    <string name="intro_correo">Introduce tu correo</string>
+    <string name="intro_apellido">Introduce tu apellido</string>
+    <string name="intro_nombre">Introduce tu nombre</string>
+    <string name="intro_celular">Introduce tu celular</string>
+    <string name="enviar">Enviar</string>
+    <string name="Limpiar">Limpiar</string>
+    <string name="Titulo_Formulario">Formulario</string>
+    <string name="Boton_Ingresar">Ingresar(Verificar)</string>
+    <string name="Boton_Limpiar">Limpiar(Cajas)</string>
+    <!--Segundo Activity-->
+    <string name="Mostrar_Datos">DATOS VALIDADOS</string>
+</resources>
